@@ -1,0 +1,60 @@
+/* Set full-page background */
+body {
+    background-image: url("mtn1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Header styling */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #003366;
+    color: white;
+}
+
+/* Form styling */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #003366;
+    color: white;
+    cursor: pointer;
+}
